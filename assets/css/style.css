@@ -1,0 +1,128 @@
+
+#container {
+    top: 0;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+#header {
+    top: 0;
+    height: 125px;
+ 
+}
+#left {
+    position: relative;
+    margin-right: 10px;
+    width: 150px;
+    float: left;
+    height: 300px;
+}
+
+#right {
+    position: relative;
+    margin-left: 160px;
+    width: 840px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#main-block {
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+#footer {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    top: 10px;
+
+}
+
+#fa {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: small;
+
+}
+
+#sc {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 600px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: x-small;
+
+}
+
+#callbox {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    width: 150px;
+    background-color: black;
+    color: yellow;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.ppcall {
+    position: absolute;
+    top: 0;
+    margin-left: 575px;
+    float: right;
+    z-index: 2;
+
+}
+
+.bluebar {
+    width: 840px;
+    height: 25px;
+    background-color: blue;
+}
+
+BoldMsg {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: darkred;
+    text-align: center;
+}
